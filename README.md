@@ -1,5 +1,9 @@
 # 麦麦派对侦察兵 · mcd-party-scout
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/fan598354502/mcd-party-scout/version.svg)](https://yarkr.com/arks/fan598354502/mcd-party-scout)
+<!-- yarkr:badges:end -->
+
 > 带孩子办麦当劳派对，最难的不是选主题，是找出**附近哪家店能办、哪天还有空位**。
 > 这个 Skill 把麦当劳官方的五步查询链路压成一条命令。
 
@@ -188,6 +192,38 @@ mcd-party-scout/
 
 本项目为麦当劳程序员创意开发大赛参赛作品，由参赛者独立开发，非麦当劳官方产品。
 项目输出仅供参考，餐品信息、价格及供应状态以麦当劳官方渠道的实时结果为准。
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/fan598354502/mcd-party-scout) as the ark [fan598354502/mcd-party-scout](https://yarkr.com/arks/fan598354502/mcd-party-scout), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync fan598354502/mcd-party-scout
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:fan598354502/mcd-party-scout/mcd-party-scout
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add fan598354502/mcd-party-scout
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/fan598354502/mcd-party-scout`.
+<!-- yarkr:install:end -->
 
 ## License
 
